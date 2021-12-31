@@ -1,46 +1,46 @@
 clients = [
     {
-        'img': 'img/clients/180_bistro.png'
+        'img': 'img/clients/180_bistro.webp'
     },
     {
-        'img': 'img/clients/amfah.png'
+        'img': 'img/clients/amfah.webp'
     },
     {
-        'img': 'img/clients/javed_habib.png'
+        'img': 'img/clients/javed_habib.webp'
     }
 ]
 
 portfolios = [
     {
-        'img': 'img/portfolio/180_bistro.jpg',
+        'img': 'img/portfolio/180_bistro.webp',
         'name': '180_bistro'
     },
     {
-        'img': 'img/portfolio/javed_habib.jpg',
+        'img': 'img/portfolio/javed_habib.webp',
         'name': 'Javed Habib'
     },
     {
-        'img': 'img/portfolio/3.jpg',
+        'img': 'img/portfolio/3.webp',
         'name': 'Portfolio Name'
     },
     {
-        'img': 'img/portfolio/4.jpg',
+        'img': 'img/portfolio/4.webp',
         'name': 'Portfolio Name'
     },
     {
-        'img': 'img/portfolio/5.jpg',
+        'img': 'img/portfolio/5.webp',
         'name': 'Portfolio Name'
     },
     {
-        'img': 'img/portfolio/6.jpg',
+        'img': 'img/portfolio/6.webp',
         'name': 'Portfolio Name'
     },
     {
-        'img': 'img/portfolio/7.jpg',
+        'img': 'img/portfolio/7.webp',
         'name': 'Portfolio Name'
     },
     {
-        'img': 'img/portfolio/8.jpg',
+        'img': 'img/portfolio/8.webp',
         'name': 'Portfolio Name'
     }
 ]

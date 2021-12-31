@@ -4,7 +4,6 @@ from werkzeug.utils import redirect
 from data import clients, portfolios, testimonials
 from flask_mail import Mail, Message
 import config
-import os
 
 
 MODE = True if config.ENV == "DEV" else False

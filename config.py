@@ -1,2 +1,3 @@
 import os
-ENV = "DEV" if os.environ['ENV'] == "DEV" else "PROD"
+ENV = "PROD" if os.environ.get('ENV') == "PROD" else "DEV"
+print("ENV------------->",ENV)
