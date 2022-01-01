@@ -14,35 +14,34 @@ MODE = True if config.ENV == "DEV" else False
 app = Flask(__name__)
 
 
-mail = app.config.update(
-    DEBUG=True,
-    # EMAIL SETTINGS
-    MAIL_SERVER='smtp.gmail.com',
-    MAIL_PORT=465,
-    MAIL_USE_SSL=True,
-    MAIL_USERNAME='tankchaitanya333@gmail.com',
-    MAIL_PASSWORD='@Akshardham1837'
-)
+# mail = app.config.update(
+#     DEBUG=True,
+#     # EMAIL SETTINGS
+#     MAIL_SERVER='smtp.gmail.com',
+#     MAIL_PORT=465,
+#     MAIL_USE_SSL=True,
+#     MAIL_USERNAME='tankchaitanya333@gmail.com',
+#     MAIL_PASSWORD='@Akshardham1837'
+# )
 
 
-mail = Mail(app)
-app = Flask(__name__)
+# mail = Mail(app)
 
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    if request.method == 'POST':
-        full_name = request.form.get('Full Name')
-        email = request.form.get('Email')
-        msg = request.form.get('Message')
-        msg = Message(
-            'Test',
-            sender='joister333@gmail.com',
-            recipients=[email]
-        )
-        msg.body = f'Hello {full_name}<br>Thanks for Contacting Us <br> We will revert Back to you soon'
-        mail.send(msg)
-        return redirect(url_for('/'))
+    # if request.method == 'POST':
+    #     full_name = request.form.get('Full Name')
+    #     email = request.form.get('Email')
+    #     msg = request.form.get('Message')
+    #     msg = Message(
+    #         'Test',
+    #         sender='joister333@gmail.com',
+    #         recipients=[email]
+    #     )
+    #     msg.body = f'Hello {full_name}<br>Thanks for Contacting Us <br> We will revert Back to you soon'
+    #     mail.send(msg)
+    #     return redirect(url_for('/'))
     response = make_response(
         render_template(
             "base.html",
@@ -56,5 +55,4 @@ def home():
 
 
 if __name__ == "__main__":
-    context = ('saprabrothers.crt', 'saprabrothers.key')
-    app.run(debug=MODE, ssl_context=context)
+    app.run(debug=MODE)
