@@ -20,16 +20,16 @@ portfolios = [
         'name': 'Javed Habib'
     },
     {
-        'img': 'img/portfolio/3.webp',
-        'name': 'Portfolio Name'
+        'img': 'img/portfolio/neel_paradise.webp',
+        'name': 'Neel Paradise'
     },
     {
-        'img': 'img/portfolio/4.webp',
-        'name': 'Portfolio Name'
+        'img': 'img/portfolio/blanco.webp',
+        'name': 'Blanco'
     },
     {
-        'img': 'img/portfolio/5.webp',
-        'name': 'Portfolio Name'
+        'img': 'img/portfolio/kharghar.webp',
+        'name': 'Kharghar One'
     },
     {
         'img': 'img/portfolio/6.webp',
@@ -40,8 +40,8 @@ portfolios = [
         'name': 'Portfolio Name'
     },
     {
-        'img': 'img/portfolio/8.webp',
-        'name': 'Portfolio Name'
+        'img': 'img/portfolio/kharghar_kitchen.webp',
+        'name': 'Kharghar One'
     }
 ]
 

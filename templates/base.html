@@ -151,7 +151,9 @@
 
           <div class="owl-carousel clients-carousel">
             {% for client in clients %}
-            <img loading="lazy" src="{{ url_for('static', filename = client.img) }}" alt="{{client.img}}" class="px-3">
+            <div class="mr-4">
+              <img loading="lazy" src="{{ url_for('static', filename = client.img) }}" alt="{{client.img}}">
+            </div>
             {% endfor %}
           </div>
 
