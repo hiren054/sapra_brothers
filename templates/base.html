@@ -176,13 +176,11 @@
 
       <div class="container-fluid">
         <div class="row no-gutters">
-
           {% for portfolio in portfolios %}
-
           <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp h-100">
+            <div class="portfolio-item wow fadeInUp h-100 mr-2 mt-2">
               <a href="{{ url_for('static', filename = portfolio.img) }}" class="portfolio-popup">
-                <img loading="lazy" src="{{ url_for('static', filename = portfolio.img) }}" class="h-100" alt="">
+                <img loading="lazy" src="{{ url_for('static', filename = portfolio.img) }}" width="50px" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
                     <h2 class="wow fadeInUp">{{portfolio.name}}</h2>
@@ -191,10 +189,9 @@
               </a>
             </div>
           </div>
-
           {% endfor %}
-
         </div>
+      </div>
 
       </div>
     </section><!-- #portfolio -->
@@ -208,7 +205,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Testimonials</h2>
-          <h4>CLIENTS LOVE SAPRA BROTHERS !</h4>
+          <!-- <h4>CLIENTS LOVE SAPRA BROTHERS !</h4> -->
         </div>
         <div class="owl-carousel testimonials-carousel">
 

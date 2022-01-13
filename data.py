@@ -12,12 +12,24 @@ clients = [
 
 portfolios = [
     {
-        'img': 'img/portfolio/180_bistro.webp',
-        'name': '180_bistro'
+        'img': 'img/portfolio/3.webp',
+        'name': 'Kharghar One'
     },
     {
-        'img': 'img/portfolio/javed_habib.webp',
-        'name': 'Javed Habib'
+        'img': 'img/portfolio/5.webp',
+        'name': 'NeelPradise'
+    },
+    {
+        'img': 'img/portfolio/kharghar_kitchen.webp',
+        'name': 'Kharghar One'
+    },
+    {
+        'img': 'img/portfolio/1.webp',
+        'name': 'Kharghar One'
+    },
+    {
+        'img': 'img/portfolio/4.webp',
+        'name': 'Kharghar'
     },
     {
         'img': 'img/portfolio/neel_paradise.webp',
@@ -31,18 +43,6 @@ portfolios = [
         'img': 'img/portfolio/kharghar.webp',
         'name': 'Kharghar One'
     },
-    {
-        'img': 'img/portfolio/6.webp',
-        'name': 'Portfolio Name'
-    },
-    {
-        'img': 'img/portfolio/7.webp',
-        'name': 'Portfolio Name'
-    },
-    {
-        'img': 'img/portfolio/kharghar_kitchen.webp',
-        'name': 'Kharghar One'
-    }
 ]
 
 testimonials = [

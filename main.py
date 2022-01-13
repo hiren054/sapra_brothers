@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from flask.helpers import make_response, url_for
 from werkzeug.utils import redirect
 from data import clients, portfolios, testimonials
-from flask_mail import Mail, Message
+# from flask_mail import Mail, Message
 import config
 
 
