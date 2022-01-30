@@ -1,13 +1,14 @@
 clients = [
-    {
-        'img': 'img/clients/180_bistro.webp'
-    },
-    {
-        'img': 'img/clients/amfah.webp'
-    },
-    {
-        'img': 'img/clients/javed_habib.webp'
-    }
+    {'img': 'img/clients/180_bistro.webp'},
+    {'img': 'img/clients/amfah.webp'},
+    {'img': 'img/clients/javed_habib.webp'},
+    {'img': 'img/clients/blanco.webp'},
+    {'img': 'img/clients/intera_design.webp'},
+    {'img': 'img/clients/kap.webp'},
+    {'img': 'img/clients/kapadia.webp'},
+    {'img': 'img/clients/linit.webp'},
+    {'img': 'img/clients/lohana.webp'},
+    {'img': 'img/clients/pc_doctor.webp'},
 ]
 
 portfolios = [
